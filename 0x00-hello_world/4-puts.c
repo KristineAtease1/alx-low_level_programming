@@ -1,9 +1,8 @@
 #include <stdio.h>
-/** 
- * programming 
- * 
- * Return: Always 0 (Success) 
- */ 
+/**
+ Programming
+ */
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
