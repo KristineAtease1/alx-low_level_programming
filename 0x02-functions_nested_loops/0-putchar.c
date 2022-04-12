@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - program to print "_putchar"
+ * main - print the word "_putchar"
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -11,6 +11,7 @@ int main(void)
 int i;
 char p[] = "putchar";
 for (i = 0; i < 8; i++)
+
 {
 _putchar(p[i]);
 }
