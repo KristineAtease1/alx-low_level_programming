@@ -1,0 +1,1 @@
+A file for the assignments on pointers, arrays and strings
