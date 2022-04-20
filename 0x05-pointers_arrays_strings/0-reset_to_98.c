@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - takes pointer to an int  and updates value to 98
+ *reset_to_98 - a function that takes pointer to an int  and updates value to 98
  *@n: puntero
  *Return- Always 0
  */
