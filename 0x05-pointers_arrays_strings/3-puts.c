@@ -1,5 +1,5 @@
-#include <stdio.h>
-#inculde "main.h"
+#include "main.h"
+#include <unistd.h>
 
 /**
  *_puts - function that prints a string followed by a new line to stdout
@@ -17,4 +17,3 @@ l++;
 }
 _putchar('\n');
 }
-    
