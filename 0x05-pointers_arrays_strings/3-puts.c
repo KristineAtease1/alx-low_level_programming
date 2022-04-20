@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- *_puts - function that prints a string followed by a new line to stdout
- *@str: value that will be evaluated.
- *Return 0
+ *_puts -function that will print a strin to stdout
+ *@str: value to be evaluated.
+ *Return: not.
  */
 
 void _puts(char *str)
