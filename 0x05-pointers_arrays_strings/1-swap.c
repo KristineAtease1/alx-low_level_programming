@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *swap_int - function taht swaps values of two integers.
+ *swap_int - function that swaps values of two integers.
  *@a: value that will be evaluated.
  *@b: value that will be evaluated.
  *Return: not
@@ -10,7 +10,7 @@
 
 void swap_int(int *a, int *b)
 {
-int *a = n;
+int n = *a;
 *a = *b;
 *b = n;
 }
