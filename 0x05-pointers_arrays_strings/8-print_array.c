@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *print_array - function that prints n elements of an array of integers, followed by a new line.
+ *print_array - function that prints n elements of an array of integers.
  *@a: value to be evaluated.
  *@n: value to be evaluated.
  *Return: not.
