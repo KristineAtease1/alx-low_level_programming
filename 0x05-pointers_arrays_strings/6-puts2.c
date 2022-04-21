@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *puts2 - print pair values.
- *@str: value to be evaluate.
+ *puts2 - function to print pair values.
+ *@str: value to be evaluated.
  *Return: not.
  */
+
 void puts2(char *str)
 {
 int len = 0;
