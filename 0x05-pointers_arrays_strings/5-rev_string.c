@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- *rev_string - reversing a string
- *@s: value that will be evaluated
- *Return:0
+ *rev_string - update value.
+ *@s: value to be evaluated.
+ *Return: not.
  */
-
 void rev_string(char *s)
 {
 int len = 0;
@@ -21,12 +19,12 @@ while (*y != '\0')
 y++;
 len++;
 }
-len = len-1;
-for (;e < ((1/2)+1) ;e++)
+l = len - 1;
+for ( ; e < ((l / 2) + 1) ; e++)
 {
-x = (l-e);
+x = (l - e);
 n = s[e];
-s[e] =s[x];
+s[e] = s[x];
 s[x] = n;
 }
 }
