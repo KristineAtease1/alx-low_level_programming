@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+
 /**
  * _isnumber - checks if string is a number
  * @s: string
@@ -31,8 +32,8 @@ return (check);
 /**
  * main - Entry point
  *
- * @argc: Counts the number of elements that go into main
- * @argv: Pointer to array of pointers containing strings entering main
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
  * Return: Always 0 (Success)
  */
 int main(int argc, char **argv)
