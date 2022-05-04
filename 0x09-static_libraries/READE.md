@@ -1,0 +1,1 @@
+A file for the tasks on ststic libraries
