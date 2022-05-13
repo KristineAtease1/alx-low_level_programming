@@ -1,7 +1,6 @@
 /**
  * File: 3-main.c
  * Author: Kristine Atease
- *
  */
 
 #include "function_pointers.h"
@@ -17,4 +16,3 @@ void print_name(char *name, void (*f)(char *))
 		return;
 	(*f)(name);
 }
-
