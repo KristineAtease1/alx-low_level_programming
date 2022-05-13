@@ -1,19 +1,18 @@
 /**
- * File : 3-main.c
- * Author : Kristine Atease
+ * File: 3-main.c
+ * Author: John Kumeku
  */
 
-#include "function_pointers.h"
-
+#include "function_pointers.
 /**
- * print_name -function that prints a name
+ * print_name - prints a name
  * @name: name to be printed
  * @f: callback function that prints name
  */
-
 void print_name(char *name, void (*f)(char *))
 {
 if (!f || !name)
+
 return;
 (*f)(name);
 }
