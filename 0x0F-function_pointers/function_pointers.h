@@ -1,6 +1,5 @@
 #ifndef FUNC_POINTERS
 #define FUNC_POINTERS
-
 /**
  * File: function_pointers.h
  * Author: Kristine Atease

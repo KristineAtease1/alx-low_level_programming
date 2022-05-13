@@ -1,1 +1,1 @@
-A file for function and pointers
+A file for Functions and Pointers
