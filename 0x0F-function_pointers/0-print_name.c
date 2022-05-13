@@ -1,6 +1,6 @@
 /**
  * File : 3-main.c
- *Author : Kristine Atease
+ * Author : Kristine Atease
  */
 
 #include "function_pointers.h"
