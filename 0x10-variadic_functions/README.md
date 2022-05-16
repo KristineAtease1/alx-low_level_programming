@@ -1,1 +1,2 @@
-A file on Variadic functions
+A file for projects on Variadic functions
+
