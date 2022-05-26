@@ -1,1 +1,1 @@
-A file for the projects on MOre singly linked lists
+A file for the projects on More singly linked lists
