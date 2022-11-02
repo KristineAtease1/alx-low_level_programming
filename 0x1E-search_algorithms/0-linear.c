@@ -7,16 +7,20 @@
  *
  * Return: target index, -1 if not found
  */
-int linear_search(int *array, size_t size, int value)
+ int linear_search(int *array, size_t size, int value)
 {
-	int idx = 0;
+	size_t i = 0;
 
-	while (array && size--)
+	if (array == NULL)
+		return (-1);
+
+	while (i != size)
 	{
-		printf("Value checked array[%d] = [%d]\n", idx, *array);
-		if (*array++ == value)
-		return (idx);
-		idx++;
+		printf("Value checked array[%lu] = [%d]\n",
+				i, array[i]);
+		if (array[i] == value)
+			return (i);
+		i++;
 	}
 	return (-1);
 }
